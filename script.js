@@ -16,16 +16,16 @@ function addTask() {
             `;
 
             taskList.appendChild(taskItem);
-            document.getElementById("taskInput").value = ""; // Clear the input field
+            // document.getElementById("taskInput").value = ""; // Clear the input field
         }
 
         function deleteTask(element) {
-            element.parentElement.parentElement.remove();
+            // element.parentElement.parentElement.remove();
         }
 
         function completeTask(element) {
             element.parentElement.parentElement.style.textDecoration = "line-through";
-            element.disabled = true; // Disable the complete button after task completion
+            // element.disabled = true; // Disable the complete button after task completion
         }
 
 
