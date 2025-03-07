@@ -20,7 +20,7 @@ function addTask() {
         }
 
         function deleteTask(element) {
-            // element.parentElement.parentElement.remove();
+            element.parentElement.parentElement.remove();
         }
 
         function completeTask(element) {
