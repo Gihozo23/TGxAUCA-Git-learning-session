@@ -16,7 +16,7 @@ function addTask() {
             `;
 
             taskList.appendChild(taskItem);
-            // document.getElementById("taskInput").value = ""; // Clear the input field
+            document.getElementById("taskInput").value = ""; // Clear the input field
         }
 
         function deleteTask(element) {
