@@ -25,7 +25,7 @@ function addTask() {
 
         function completeTask(element) {
             element.parentElement.parentElement.style.textDecoration = "line-through";
-            // element.disabled = true; // Disable the complete button after task completion
+            element.disabled = true; // Disable the complete button after task completion
         }
 
 
