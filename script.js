@@ -16,6 +16,7 @@ function addTask() {
             `;
 
             taskList.appendChild(taskItem);
+            console.log("task added successfully");
             document.getElementById("taskInput").value = ""; // Clear the input field
         }
 
